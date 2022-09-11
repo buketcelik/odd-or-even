@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="calculate" content="odd even">
+    <title> Odd or Even </title>
+</head>
+<body>    
+ 
+    <script>
+      
+var value = prompt("Lütfen Sayınızı Giriniz.");
+    sum = 0;
+
+while (value) {
+    sum += value % 10;
+    value = Math.floor(value / 10);
+}
+
+console.log(sum);
+if(sum%2 === 0) {
+            console.log("Number is even.")
+        } else if(sum%2 === 1) {
+            console.log("Number is odd")
+        } 
+        
+    </script>
+</body>
+</html>
+ 
